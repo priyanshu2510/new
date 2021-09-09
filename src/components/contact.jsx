@@ -131,16 +131,7 @@ export const Contact = (props) => {
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
-                    </a>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -150,10 +141,10 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
+          {"Copyright © "}
+      Laxmi Tyres
+      {" " }{new Date().getFullYear()}
+      {"."}
           </p>
         </div>
       </div>
